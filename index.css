@@ -14,14 +14,29 @@
 
 #container {
   background-color: black;
-  height: 70vh;
+  height: auto;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 
+#newgame {
+  text-decoration: none;
+  box-sizing: border-box;
+  padding:0.35em 1.2em;
+  border:0.4em solid black;
+  font-weight:800;
+  font-family:'Gill Sans',sans-serif;
+  margin:0.4em 0.4em 0.4em 0.4em;
+  color:black;
+}
+a:hover {
+  background-color: green;
+}
 .tile {
-  height: 200px;
-  width: 200px;
+  margin: 2.6em;
+  height: 100px;
+  width: 100px;
   background-color: aliceblue;
 }
+
